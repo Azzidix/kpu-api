@@ -24,16 +24,16 @@
 				<div class="collapse navbar-collapse" id="exCollapsingNavbar2">
 					<ul class="nav navbar-nav">
 						<li class="nav-item ">
-							<a class="nav-link" href="index.php"><span class="nav-icon"><i class="fa fa-home"></i></span>Beranda</a>
+							<a class="nav-link" href="index.html"><span class="nav-icon"><i class="fa fa-home"></i></span>Beranda</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="cek.php"><span class="nav-icon"><i class="fa fa-user"></i></span>Cek Data</a>
+							<a class="nav-link" href="cek.html"><span class="nav-icon"><i class="fa fa-user"></i></span>Cek Data</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="count.php"><span class="nav-icon"><i class="fa fa-pie-chart"></i></span>Quick Count</a>
+							<a class="nav-link" href="count.html"><span class="nav-icon"><i class="fa fa-pie-chart"></i></span>Quick Count</a>
 						</li>
 						<li class="nav-item nav-item-right active">
-							<a class="nav-link" href="login.php"><span class="nav-icon"><i class="fa  fa-sign-in"></i></span>Login</a>
+							<a class="nav-link" href="login.html"><span class="nav-icon"><i class="fa  fa-sign-in"></i></span>Login</a>
 						</li>
 					</ul>
 				</div>
@@ -111,11 +111,11 @@
 			$('#btnLogin').on('click', () => {
 				let linkAkses = '';
 				if (akses == 'admin') {
-					linkAkses = 'admin/index.php';
+					linkAkses = 'admin/index.html';
 				} else if (akses == 'panitia') {
-					linkAkses = 'panitia/index.php';
+					linkAkses = 'panitia/index.html';
 				} else if (akses == 'pemilih') {
-					linkAkses = 'pemilih/index.php';
+					linkAkses = 'pemilih/index.html';
 				}
 				window.location.href = location.origin + '/' + linkAkses
 			});
