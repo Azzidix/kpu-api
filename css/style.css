@@ -1,0 +1,144 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(0,0,0, 0.7);
+}
+
+b {
+	font-weight: 600;
+}
+
+.btn-purple {
+	background-color: #563d7c;
+	color: #ffffff;
+}
+
+.form-control,
+.form-control:focus {
+	box-shadow: none;
+}
+
+.form-control:focus {
+	border-color: rgb(86, 61, 124, .5);
+}
+
+.btn-right {
+	float: right;
+}
+
+.btn-purple:focus,
+.btn-purple:hover {
+	background-color: #563d7c;
+	color: #ffffff;
+}
+
+.btn-purple i.fa {
+	margin-right: 6px;
+}
+
+.bg-purple {
+	background-color: #563d7c;
+	color: #ffffff;
+}
+
+.navbar-brand img {
+	width: 35px;
+}
+
+.navbar .navbar-toggler {
+	outline: none;
+}
+.navbar .navbar-nav {
+	width: 100%;
+}
+
+.navbar .navbar-nav .nav-item-right {
+	margin-left: auto;
+}
+
+@media screen (max-width: 766px) {
+	.navbar .navbar-nav .nav-item-right {
+		margin-left: 0;
+	}
+}
+
+.navbar .navbar-nav .nav-item {
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+.navbar .navbar-nav a.nav-link {
+	text-transform: uppercase;
+	display: flex;
+}
+.navbar .navbar-nav a.nav-link i.fa {
+	margin-right: 4px;
+}
+
+.navbar .navbar-nav a.nav-link span.nav-icon {
+	margin-right: 6px;
+}
+
+.content .candidate .card-image span.number,
+.content .vote .card-image span.number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	color: #ffffff;
+	background-color: #563d7c;
+	border-bottom-right-radius: 10px;
+}
+.content .counting-title,
+.content .candidate-title {
+	position: relative;
+	padding-left: 10px;
+}
+.content .counting-title h2::before,
+.content .candidate-title h2::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -5px;
+	width: 5px;
+	height: 100%;
+	background-color: #563d7c;
+}
+.content .candidate .card:hover {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.content .candidate .card-image {
+	text-align: center;
+}
+.content .candidate .card-image img {
+	width: 80%;
+}
+
+.content .candidate .card-footer {
+	background-color: #ffffff;
+}
+
+.input-group .input-group-append .input-group-text {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-right: none;
+}
+
+.input-group .input-group-append .input-group-text i.fa {
+	color: rgb(86, 61, 124, .7);
+}
+
+.content .counting .log li {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.checkbox label {
+	margin-bottom: 0;
+}
